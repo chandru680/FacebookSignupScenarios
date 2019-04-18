@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "To signup an facebook account with randomly generated personal details",
+        "description": "",
+        "id": "to-signup-an-account-for-facebook-web-application;to-signup-an-facebook-account-with-randomly-generated-personal-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9937591704,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Launch a web browser",
+            "match": {
+              "location": "SignUpFacebookAccount.Launchwebbrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 870856136,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the first set of personal details \"Yes\" \"Yes\" \"Yes\" \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 41
+                },
+                {
+                  "val": "Yes",
+                  "offset": 47
+                },
+                {
+                  "val": "Yes",
+                  "offset": 53
+                },
+                {
+                  "val": "Yes",
+                  "offset": 59
+                }
+              ],
+              "location": "SignUpFacebookAccount.EnterSection1PersonalDetails(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 479336018,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the second set of personal details \"Yes\" \"Yes\" \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 42
+                },
+                {
+                  "val": "Yes",
+                  "offset": 48
+                },
+                {
+                  "val": "Yes",
+                  "offset": 54
+                }
+              ],
+              "location": "SignUpFacebookAccount.EnterSection2PersonalDetails(String,String,String)"
+            },
+            "matchedColumns": [
+              4,
+              5,
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7101305099,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Signup for the facebook application",
+            "match": {
+              "location": "SignUpFacebookAccount.signup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1447153916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close the web browser",
+            "match": {
+              "location": "SignUpFacebookAccount.closebrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Signup an account for facebook web application",
+    "description": "",
+    "id": "to-signup-an-account-for-facebook-web-application",
+    "keyword": "Feature",
+    "uri": "SignupFacebookScenario.feature"
+  }
+]
